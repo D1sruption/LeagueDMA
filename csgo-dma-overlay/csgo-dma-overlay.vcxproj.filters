@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Signature.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
+    <ClCompile Include="cDrawings.cpp" />
+    <ClCompile Include="cDirectX.cpp" />
+    <ClCompile Include="RenderMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LeagueUtils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hDrawings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hDirectX.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMain.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3cd1a801-83b8-44c2-b5c0-fea64c1267d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
